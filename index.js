@@ -56,4 +56,10 @@ bookStore.books.forEach(book => {
     const bookAuthor= document.createElement('p');
     const bookImage= document.createElement('img');
 
+    bookTitle.textContent= book.title;
+    bookAuthor.textContent= book.author;
+    bookImage.src= book.imageUrl;
+
+    
+
 })
