@@ -45,3 +45,11 @@ const bookStore = {
 
 // Write your code here!
 
+const bookStoreTitle= document.getElementById('header');
+bookStoreTitle.textcontent = bookstore.name;
+
+const booklist= document.getElementById('booklist');
+
+bookStore.books.forEach(book => {
+    
+})
