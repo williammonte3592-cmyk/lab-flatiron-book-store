@@ -51,5 +51,9 @@ bookStoreTitle.textcontent = bookstore.name;
 const booklist= document.getElementById('booklist');
 
 bookStore.books.forEach(book => {
-    
+    const bookContainer= document.createElement('li');
+    const bookTitle= document.createElement('h3');
+    const bookAuthor= document.createElement('p');
+    const bookImage= document.createElement('img');
+
 })
